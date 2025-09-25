@@ -27,11 +27,13 @@ int main() {
 	scanf("%d",  &weight);
 	
 	
+	
+	
 	//print the output to the user sreen
-	printf("\t your age is %dyrs \n ",  age);
-	printf("\tyour height is  %dcm \n",   height);
-	printf("\tyour phone is  %d \n",  phone);
-	printf("\tyour weight is  %dkg \n",  weight);
+	printf("\n your age is %dyrs \n ",  age);
+	printf("\nyour height is  %dcm \n",   height);
+	printf("\nyour phone is  %d \n",  phone);
+	printf("\nyour weight is  %dkg \n",  weight);
 	
 	return 0;
 	
