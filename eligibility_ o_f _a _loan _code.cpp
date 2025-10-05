@@ -5,7 +5,6 @@ Reg:CT100/G/26129/25
 Desciption;eligibilty of a loan
 */
 #include <stdio.h>
-#include <string.h>
 
 int main() {
     int age;    
@@ -29,5 +28,6 @@ int main() {
     return 0;
 }
 	
+
 
 
