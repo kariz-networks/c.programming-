@@ -16,7 +16,7 @@ void convertToCelsius() {
     Celsius = (Fahrenheit - 32) * 5.0 / 9.0;
     
     // Display the result
-    printf("Temperature in Celsius: %.2f°C\n", Celsius);
+    printf("Temperature in Celsius: %.2fÂ°C\n", Celsius);
 }
 
 int main() {
