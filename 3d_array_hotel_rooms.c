@@ -4,7 +4,6 @@ Reg  :CT100/G/26129/25
 Description :3d array
 */
 #include <stdio.h>
-#include <stdio.h>
 
 int main() {
     int chain[3][5][10] = {
@@ -26,3 +25,4 @@ int main() {
     }
     return 0;
 }
+
