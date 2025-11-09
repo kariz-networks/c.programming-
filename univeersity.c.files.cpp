@@ -1,4 +1,9 @@
-#include <stdio.h>
+/*
+Name :joseph kariuki gichuhi
+Reg : CT100/G/26129/25
+Description :libray c files
+*/
+#inlude <stdio.h>
 #include <string.h>
 
 typedef struct {
@@ -10,13 +15,13 @@ typedef struct {
 int main() {
     FILE *file = fopen("results.dat", "rb");
     
-    // If file doesn't exist, create one with sample data – super friendly! ??
+    // If file doesn't exist, create one with sample data â€“ super friendly! ??
     if (!file) {
         printf("?? Hi. students results ?\n\n");
         
         file = fopen("results.dat", "wb");
         if (!file) {
-            printf("? Can't create file – check permissions! ??\n");
+            printf("? Can't create file â€“ check permissions! ??\n");
             return 1;
         }
 
@@ -50,7 +55,8 @@ int main() {
     fclose(file);
     printf("-------------------------------------\n");
     printf("All done! Thanks for checking the results ??\n");
-    printf("Run again anytime – works every time! ??\n");
+    printf("Run again anytime â€“ works every time! ??\n");
 
     return 0;
 }
+
